@@ -1924,9 +1924,9 @@ debug@^4.0.1, debug@^4.1.0:
     ms "^2.1.1"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-extend@^0.6.0:
   version "0.6.0"
@@ -3911,11 +3911,6 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-oauth@0.9.x:
-  version "0.9.15"
-  resolved "https://registry.yarnpkg.com/oauth/-/oauth-0.9.15.tgz#bd1fefaf686c96b75475aed5196412ff60cfb9c1"
-  integrity sha1-vR/vr2hslrdUda7VGWQS/2DPucE=
-
 object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -4148,44 +4143,6 @@ pascalcase@^0.1.1:
   resolved "https://registry.yarnpkg.com/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
   integrity sha1-s2PlXoAGym/iF4TS2yK9FdeRfxQ=
 
-passport-oauth@~0.1.1:
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/passport-oauth/-/passport-oauth-0.1.15.tgz#fb74e0afe84614bfa256c5fc716cc56bbfc8cec0"
-  integrity sha1-+3Tgr+hGFL+iVsX8cWzFa7/IzsA=
-  dependencies:
-    oauth "0.9.x"
-    passport "~0.1.1"
-    pkginfo "0.2.x"
-
-passport-slack@^0.0.7:
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/passport-slack/-/passport-slack-0.0.7.tgz#167eb80f0ab622d2156e7cae7055e16d0b1890d0"
-  integrity sha1-Fn64Dwq2ItIVbnyucFXhbQsYkNA=
-  dependencies:
-    passport-oauth "~0.1.1"
-    pkginfo "0.2.x"
-
-passport-strategy@1.x.x:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/passport-strategy/-/passport-strategy-1.0.0.tgz#b5539aa8fc225a3d1ad179476ddf236b440f52e4"
-  integrity sha1-tVOaqPwiWj0a0XlHbd8ja0QPUuQ=
-
-passport@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/passport/-/passport-0.4.0.tgz#c5095691347bd5ad3b5e180238c3914d16f05811"
-  integrity sha1-xQlWkTR71a07XhgCOMORTRbwWBE=
-  dependencies:
-    passport-strategy "1.x.x"
-    pause "0.0.1"
-
-passport@~0.1.1:
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/passport/-/passport-0.1.18.tgz#c8264479dcb6414cadbb66752d12b37e0b6525a1"
-  integrity sha1-yCZEedy2QUytu2Z1LRKzfgtlJaE=
-  dependencies:
-    pause "0.0.1"
-    pkginfo "0.2.x"
-
 path-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-0.0.0.tgz#a0b870729aae214005b7d5032ec2cbbb0fb4451a"
@@ -4238,11 +4195,6 @@ path-type@^2.0.0:
   dependencies:
     pify "^2.0.0"
 
-pause@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
-  integrity sha1-HUCLP9t2kjuVQ9lvtMnf1TXZy10=
-
 pbkdf2@^3.0.3:
   version "3.0.17"
   resolved "https://registry.yarnpkg.com/pbkdf2/-/pbkdf2-3.0.17.tgz#976c206530617b14ebb32114239f7b09336e93a6"
@@ -4294,11 +4246,6 @@ pkg-dir@^3.0.0:
   integrity sha512-/E57AYkoeQ25qkxMj5PBOVgF8Kiu/h7cYS30Z5+R7WaiCCBfLq58ZI/dSeaEKb9WVJV5n/03QwrN3IeWIFllvw==
   dependencies:
     find-up "^3.0.0"
-
-pkginfo@0.2.x:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/pkginfo/-/pkginfo-0.2.3.tgz#7239c42a5ef6c30b8f328439d9b9ff71042490f8"
-  integrity sha1-cjnEKl72wwuPMoQ52bn/cQQkkPg=
 
 pluralize@^7.0.0:
   version "7.0.0"
